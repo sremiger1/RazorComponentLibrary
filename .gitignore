@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/WebApplication1/DesignTimeBuild
+/.vs/WebApplication1
+/Components/bin/Debug/netcoreapp3.1
+/Components/obj
+/Components/Components.csproj.user
+/WebApplication1/bin/Debug/netcoreapp3.1
+/WebApplication1/WebApplication1.csproj.user

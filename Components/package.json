@@ -1,0 +1,29 @@
+{
+  "name": "razorclasslibrary2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.3.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node app.js --debug",
+    "start": "node app.js",
+    "watch": "webpack --watch --mode=development",
+    "build": "webpack --mode=production --optimize-minimize",
+    "build:dev": "webpack --mode=development"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "jquery-ui": "^1.12.1"
+  }
+}
